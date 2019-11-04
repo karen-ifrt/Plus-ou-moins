@@ -46,6 +46,8 @@ function compare() {
         replay.style.opacity = 1;
     }
 
+    number.value = "";
+
 }
 
 function reload() {
