@@ -38,7 +38,7 @@ function compare() {
     }
 
     else {
-        alert('Game Over !');
+        alert('Game Over ! Le nombre était ' + trueNumber);
         number.classList.add("disabled");
         play.classList.add("disabled");
         replay.style.opacity = 1;
